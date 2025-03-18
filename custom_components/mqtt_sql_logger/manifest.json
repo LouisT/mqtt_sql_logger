@@ -1,0 +1,18 @@
+{
+    "name": "MQTT SQL Logger",
+    "description": "An integration for capturing and storing MQTT messages in a MariaDB or MySQL database.",
+    "domain": "mqtt_sql_logger",
+    "repository": "https://github.com/LouisT/mqtt_sql_logger",
+    "issue_tracker": "https://github.com/LouisT/mqtt_sql_logger/issues",
+    "version": "1.0.0",
+    "requirements": [
+        "aiomysql==0.2.0",
+        "paho-mqtt>=1.6.1"
+    ],
+    "codeowners": [
+        "@LouisT"
+    ],
+    "config_flow": false,
+    "iot_class": "local_polling",
+    "homeassistant": "2025.2.1"
+}
